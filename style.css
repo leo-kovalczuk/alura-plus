@@ -79,13 +79,34 @@ body{
 .dispositivos-lista{
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .dispositivos{
     text-align: center;
-    list-style-type: none;
     margin: 5em 0;
 }
 .descricao-titulo{
     font-size: 32px;
     color: var(--branco-principal)
+}
+.rodape-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+.lista-link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 0 16px 0 16px;
+    font-size: 14px;
+}
+.rodape-texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
 }
